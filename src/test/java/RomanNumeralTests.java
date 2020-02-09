@@ -26,4 +26,14 @@ public class RomanNumeralTests {
     public void testInToRoman_10_is_X() {
         Assert.assertEquals(romanNumeral.intToRoman(10), "X");
     }
+
+    @Test
+    public void testInToRoman_13_is_X() {
+        Assert.assertEquals(romanNumeral.intToRoman(13), "XIII");
+    }
+
+    @Test
+    public void testInToRoman_15_is_X() {
+        Assert.assertEquals(romanNumeral.intToRoman(15), "XV");
+    }
 }
